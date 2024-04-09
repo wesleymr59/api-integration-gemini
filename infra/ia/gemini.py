@@ -4,7 +4,6 @@ import os
 
 genai.configure(api_key=os.environ['API_KEY'])
 
-
 class Ia(IaInterface):
     def __init__(self) -> None:
         self.model = genai.GenerativeModel('gemini-pro')
