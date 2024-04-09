@@ -1,7 +1,7 @@
 
 # Api Integration Ia Gemini
 
-Api de integração com a inteligencia artificial Gemini.
+Api de integração com a inteligencia artificial Gemini, usando arquitetura hexagonal.
 
 
 ## Instalação
