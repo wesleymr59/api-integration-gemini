@@ -1,5 +1,22 @@
 
-# Gemini Go e Python
+# Api Integration Ia Gemini
 
-Um projeto desenvolvido usando a api de IA do google chamada Gemini. O projeto vai ser desenvolvido usando python e golang apenas para estudo de entrada de prompt para conversar com a ia usando a aplicação em backend.
+Api de integração com a inteligencia artificial Gemini.
+
+
+## Instalação
+
+build image docker
+
+```bash
+docker image build -t ia-gemini-api:latest .
+```
+
+Execute container
+```bash
+docker container run --rm -it -v $(pwd):/usr/src --env-file .env -p 8090:8090 --name ia-gemini-api ia-gemini-api:latest
+```
+## Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
